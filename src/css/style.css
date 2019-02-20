@@ -79,7 +79,7 @@ main {
   border-radius: 4px;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
   display: flex;
-  font-size: 0.75em;
+  font-size: 0.625em;
   margin: 5px;
   width: 94%;
 }
@@ -99,12 +99,14 @@ main {
 
 .card-details__text {
   margin: 8px;
+  text-transform: lowercase;
 }
 
 .card-details__text--detach {
   font-size: 1.5em;
   font-weight: bold;
   margin: 8px;
+  text-transform: capitalize;
 }
 
 .card-details__icon {
