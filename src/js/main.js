@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => getUsers());
 
 let getUsers = () => {
+  let spinner = document.querySelector('.spinner');
+  spinner.classList.remove('invisible');
+
   fetch('https://randomuser.me/api?results=10&nat=BR')
     .then(response => response.json())
     .then(data => {
@@ -10,6 +13,7 @@ let getUsers = () => {
       data.results.forEach(user => cards += card(user));
       containerUsers.innerHTML = cards;
 
+      spinner.classList.add('invisible');
       document.querySelector('.add-user').classList.remove('invisible');
     })
     .catch(error => {

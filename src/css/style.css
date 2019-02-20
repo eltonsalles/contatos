@@ -210,6 +210,24 @@ main {
 
 /* Fim Button add User */
 
+.spinner {
+  animation: spin 1s linear infinite;
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #CACACA;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  height: 48px;
+  margin: 20px auto;
+  width: 48px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .invisible {
   display: none;
 }
