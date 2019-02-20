@@ -23,8 +23,10 @@ let card = (user) => {
     <section class="card-details">
       <p class="card-details__text card-details__text--detach">${user.name.title} ${user.name.first} ${user.name.last}</p>
       <p class="card-details__text"><i class="card-details__icon far fa-envelope"></i> ${user.email}</p>
-      <p class="card-details__text"><i class="card-details__icon fas fa-mobile"></i> ${user.cell}</p>
-      <p class="card-details__text"><i class="card-details__icon fas fa-phone"></i> ${user.phone}</p>
+      <p class="card-details__text">
+        <span class="card-details__icon--mobile"><i class="card-details__icon fas fa-mobile"></i> ${user.cell}</span>
+         <i class="card-details__icon fas fa-phone"></i> ${user.phone}
+      </p>
     </section>
   </article>
 `
