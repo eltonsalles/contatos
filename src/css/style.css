@@ -5,6 +5,7 @@ body {
 main {
   margin: 0 auto;
   max-width: 1280px;
+  padding-bottom: 30px;
 }
 
 /* Header */
@@ -190,17 +191,16 @@ main {
 .add-user {
   background-color: #6cd7af;
   border: none;
-  border-radius: 50%;
+  border-radius: 4px;
   color: #FFFFFF;
   cursor: pointer;
   display: block;
-  font-size: 1.5em;
+  font-size: 1em;
   height: 48px;
-  margin: 0 auto;
+  margin: 10px auto;
   outline: none;
-  padding: 10px;
+  padding: 10px 20px;
   transition: background-color .3s;
-  width: 48px;
 }
 
 .add-user:hover {
