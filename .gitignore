@@ -1,0 +1,8 @@
+# IDE
+.idea
+
+# Lock
+package-lock.json
+
+# Folders
+node_modules
