@@ -1,0 +1,82 @@
+body {
+  font-family: 'Exo', sans-serif;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  color: #6cd7af;
+}
+
+/* Input Search */
+.input-search {
+  align-items: center;
+  display: flex;
+  margin: 10px 0;
+  position: relative;
+  width: 90%;
+}
+
+.input-search__icon {
+  left: 15px;
+  opacity: .3;
+  position: absolute;
+}
+
+.input-search__field {
+  border: 1px solid #CACACA;
+  border-radius: 50px;
+  height: 42px;
+  outline: none;
+  padding: 0 15px 0 40px;
+  width: 100%;
+}
+
+/* Fim Input Search */
+
+/* Card */
+.card {
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+  display: flex;
+  font-size: 12px;
+  margin: 5px;
+  width: 94%;
+}
+
+.card-img {
+  height: 120px;
+  margin: 0;
+  width: 120px;
+}
+
+.card-img__user {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  height: 120px;
+  width: 120px;
+}
+
+.card-details__text {
+  margin: 8px;
+}
+
+.card-details__text--detach {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 8px;
+}
+
+.card-details__icon {
+  opacity: .3;
+  padding-right: 4px;
+  text-align: center;
+  width: 20px;
+}
+
+/* Fim Card */
