@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (this.value.length > 0) {
       cards.forEach(card => {
-        let name = card.querySelector('.card-details__text--detach span').textContent;
+        let name = card.querySelector('.card-details__text--name span').textContent;
         let pattern = new RegExp(this.value, 'i');
 
         if (!pattern.test(name)) {

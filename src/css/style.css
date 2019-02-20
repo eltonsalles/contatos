@@ -98,8 +98,8 @@ main {
     align-items: center;
     flex-direction: column;
     margin: 20px 1%;
-    width: 31%;
     padding: 20px 0 30px;
+    width: 31%;
   }
 }
 
@@ -152,7 +152,7 @@ main {
   }
 }
 
-.card-details__text--detach {
+.card-details__text--name {
   font-size: 1.3em;
   font-weight: bold;
   margin: 8px;
@@ -185,6 +185,30 @@ main {
 }
 
 /* Fim Card */
+
+/* Button add User */
+.add-user {
+  background-color: #6cd7af;
+  border: none;
+  border-radius: 50%;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: block;
+  font-size: 1.5em;
+  height: 48px;
+  margin: 0 auto;
+  outline: none;
+  padding: 10px;
+  transition: background-color .3s;
+  width: 48px;
+}
+
+.add-user:hover {
+  background-color: #55aa83;
+  transition: all .3s;
+}
+
+/* Fim Button add User */
 
 .invisible {
   display: none;
