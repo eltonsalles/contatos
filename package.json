@@ -1,0 +1,23 @@
+{
+  "name": "contacts",
+  "version": "0.0.1",
+  "description": "Lista de Contatos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "browser-sync start --server 'src' --files 'src'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/eltonsalles/contatos.git"
+  },
+  "author": "Elton Salles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eltonsalles/contatos/issues"
+  },
+  "homepage": "https://github.com/eltonsalles/contatos#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}
