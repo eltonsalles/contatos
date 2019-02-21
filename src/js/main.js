@@ -4,7 +4,7 @@ let getUsers = () => {
   let spinner = document.querySelector('.spinner');
   spinner.classList.remove('invisible');
 
-  fetch('https://randomuser.me/api?results=10&nat=BR')
+  fetch('https://randomuser.me/api?results=12&nat=BR')
     .then(response => response.json())
     .then(data => {
       let containerUsers = document.querySelector('.container');
